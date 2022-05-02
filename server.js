@@ -8,4 +8,4 @@ import postPedidos from './routes/pedidos.js'
 import './db/db.js';
 app.use('/clientes', postClientes)
 app.use('/pedidos', postPedidos)
-app.listen(8000)
+app.listen(8080)
