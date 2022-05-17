@@ -10,4 +10,4 @@ import './db/db.js';
 app.use('/clientes', postClientes)
 app.use('/pedidos', postPedidos)
 app.use('/productos', postProductos)
-app.listen(8000)
+app.listen(8080)
